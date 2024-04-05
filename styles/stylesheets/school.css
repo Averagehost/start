@@ -1,0 +1,51 @@
+.bheader1:hover,.bheader3:hover{
+  background-color:rgb(103, 119, 131);
+  box-shadow:  1px 0px 10px rgb(80, 90, 97) inset;
+}
+
+.bheader2{
+  background-color: rgb(63, 77, 90);
+  box-shadow: none;
+  border-style: solid;
+  border-width:3px;
+  border-color: rgb(0, 204, 255);
+}
+
+
+.ictb{
+  padding: 0px;
+}
+
+.menu{
+ display: flex; 
+ flex-direction: row-reverse;
+}
+
+.leerlingen,.Medewerkers{
+  background-color: blueviolet;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  text-align: center;
+  background-color: rgb(63, 77, 90);
+  border: 3px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 10px rgb(20, 26, 32) ;
+  border-style:solid ;
+  border-color: rgb(63, 77, 90);
+  color: white; 
+}
+
+.leerlingen{
+  box-shadow: 2px 3px 10px rgb(20, 26, 32) ;
+  border-color: rgb(0, 204, 255);
+  border-width: 3px;
+  border-style:solid ;
+}
+
+@media (min-height: 1700px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

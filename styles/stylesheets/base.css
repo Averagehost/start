@@ -223,3 +223,20 @@ span{
   width: 30px;
   height: 30px;
 }
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #33404d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888888a4; 
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
